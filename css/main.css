@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background-color: #ddd;
+}
+
+b {
+  color: red;
+}
+
+
+.status-up {
+  color: green;
+}
+.status-up:before {
+  content: "UP!";
+}
+
+.status-down {
+  color: red;
+}
+
+.status-down:before {
+  content: "DOWN!";
+}
+
+.container {
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  width: 500px;
+}
